@@ -24,14 +24,3 @@ class Banana:
         image = r.read()
         r.close()
         return image
-
-
-if __name__ == "__main__":
-    import io
-    from PIL import Image
-
-    my_api_key = "AIzaSyC2tirOxz-chhW7CzbwMX6K2m24DHx7XVQ"
-    my_cse_id = "12fe31151e8044679"
-    banana = Banana(my_api_key, my_cse_id)
-    im = Image.open(io.BytesIO(banana.get_random_banana()))
-    im.show()
