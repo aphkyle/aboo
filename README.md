@@ -7,7 +7,7 @@ pip install aboo
 ```
 or clone the repo
 ```bash
-git clone repo
+git clone https://github.com/aphkyle/aboo
 ```
 ## Example Usage
 ```py
